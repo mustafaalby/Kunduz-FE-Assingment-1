@@ -1,0 +1,31 @@
+{
+  "name": "kndz",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development node server/index.js",
+    "build:dev": "cross-env NODE_ENV=development next build",
+    "build:prod": "cross-env NODE_ENV=production next build",
+    "start:dev": "cross-env NODE_ENV=development node server/index.js",
+    "start:prod": "cross-env NODE_ENV=production node server/index.js",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "next": "^11.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-select": "^4.3.1",
+    "sass": "^1.38.2",
+    "styled-components": "^5.3.1",
+    "styled-system": "^5.1.5"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.13.2",
+    "cross-env": "^7.0.3",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2"
+  }
+}
